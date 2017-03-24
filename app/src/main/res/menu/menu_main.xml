@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bobo.homework2.MainActivity">
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="清除"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_story"
+        android:orderInCategory="100"
+        android:title="故事"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="關於"
+        app:showAsAction="never" />
+</menu>

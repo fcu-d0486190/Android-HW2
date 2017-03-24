@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bobo.homework2.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/B_sayhello"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:hint="在此輸入"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/B_sayhello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/ed_input"
+        android:layout_marginEnd="20dp"
+        android:text="SAY HELLO" />
+</RelativeLayout>
